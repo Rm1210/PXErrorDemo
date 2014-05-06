@@ -13,6 +13,17 @@
 		7DF75EDB1918D80F00B4E776 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7DF75ED91918D80F00B4E776 /* Credits.rtf */; };
 		7DF75EDE1918D80F00B4E776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EDD1918D80F00B4E776 /* AppDelegate.m */; };
 		7DF75EE11918D80F00B4E776 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF75EDF1918D80F00B4E776 /* MainMenu.xib */; };
+		7DF75EFA1918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EEA1918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.m */; };
+		7DF75EFB1918D84D00B4E776 /* PXSourceListRuntimeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EED1918D84D00B4E776 /* PXSourceListRuntimeAdditions.m */; };
+		7DF75EFC1918D84D00B4E776 /* PXSourceList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EEF1918D84D00B4E776 /* PXSourceList.m */; };
+		7DF75EFD1918D84D00B4E776 /* PXSourceListBadgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EF11918D84D00B4E776 /* PXSourceListBadgeCell.m */; };
+		7DF75EFE1918D84D00B4E776 /* PXSourceListBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EF31918D84D00B4E776 /* PXSourceListBadgeView.m */; };
+		7DF75EFF1918D84D00B4E776 /* PXSourceListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EF71918D84D00B4E776 /* PXSourceListItem.m */; };
+		7DF75F001918D84D00B4E776 /* PXSourceListTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75EF91918D84D00B4E776 /* PXSourceListTableCellView.m */; };
+		7DF75F051918D87D00B4E776 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75F021918D87D00B4E776 /* Photo.m */; };
+		7DF75F061918D87D00B4E776 /* PhotoCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75F041918D87D00B4E776 /* PhotoCollection.m */; };
+		7DF75F0B1918D8D200B4E776 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF75F091918D8D200B4E776 /* BaseViewController.m */; };
+		7DF75F0C1918D8D200B4E776 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF75F0A1918D8D200B4E776 /* BaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,30 @@
 		7DF75EDC1918D80F00B4E776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DF75EDD1918D80F00B4E776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7DF75EE01918D80F00B4E776 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7DF75EE91918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListDelegateDataSourceProxy.h; sourceTree = "<group>"; };
+		7DF75EEA1918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceListDelegateDataSourceProxy.m; sourceTree = "<group>"; };
+		7DF75EEB1918D84D00B4E776 /* PXSourceListPrivateConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListPrivateConstants.h; sourceTree = "<group>"; };
+		7DF75EEC1918D84D00B4E776 /* PXSourceListRuntimeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListRuntimeAdditions.h; sourceTree = "<group>"; };
+		7DF75EED1918D84D00B4E776 /* PXSourceListRuntimeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceListRuntimeAdditions.m; sourceTree = "<group>"; };
+		7DF75EEE1918D84D00B4E776 /* PXSourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceList.h; sourceTree = "<group>"; };
+		7DF75EEF1918D84D00B4E776 /* PXSourceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceList.m; sourceTree = "<group>"; };
+		7DF75EF01918D84D00B4E776 /* PXSourceListBadgeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListBadgeCell.h; sourceTree = "<group>"; };
+		7DF75EF11918D84D00B4E776 /* PXSourceListBadgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceListBadgeCell.m; sourceTree = "<group>"; };
+		7DF75EF21918D84D00B4E776 /* PXSourceListBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListBadgeView.h; sourceTree = "<group>"; };
+		7DF75EF31918D84D00B4E776 /* PXSourceListBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceListBadgeView.m; sourceTree = "<group>"; };
+		7DF75EF41918D84D00B4E776 /* PXSourceListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListDataSource.h; sourceTree = "<group>"; };
+		7DF75EF51918D84D00B4E776 /* PXSourceListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListDelegate.h; sourceTree = "<group>"; };
+		7DF75EF61918D84D00B4E776 /* PXSourceListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListItem.h; sourceTree = "<group>"; };
+		7DF75EF71918D84D00B4E776 /* PXSourceListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceListItem.m; sourceTree = "<group>"; };
+		7DF75EF81918D84D00B4E776 /* PXSourceListTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListTableCellView.h; sourceTree = "<group>"; };
+		7DF75EF91918D84D00B4E776 /* PXSourceListTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceListTableCellView.m; sourceTree = "<group>"; };
+		7DF75F011918D87D00B4E776 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		7DF75F021918D87D00B4E776 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		7DF75F031918D87D00B4E776 /* PhotoCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollection.h; sourceTree = "<group>"; };
+		7DF75F041918D87D00B4E776 /* PhotoCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollection.m; sourceTree = "<group>"; };
+		7DF75F081918D8D200B4E776 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7DF75F091918D8D200B4E776 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7DF75F0A1918D8D200B4E776 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +81,7 @@
 		7DF75EBE1918D80F00B4E776 = {
 			isa = PBXGroup;
 			children = (
+				7DF75EE71918D84D00B4E776 /* PXSourceList */,
 				7DF75ED01918D80F00B4E776 /* PXErrorDemo */,
 				7DF75EC91918D80F00B4E776 /* Frameworks */,
 				7DF75EC81918D80F00B4E776 /* Products */,
@@ -82,9 +118,13 @@
 		7DF75ED01918D80F00B4E776 /* PXErrorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7DF75F071918D88500B4E776 /* Model */,
 				7DF75EDC1918D80F00B4E776 /* AppDelegate.h */,
 				7DF75EDD1918D80F00B4E776 /* AppDelegate.m */,
 				7DF75EDF1918D80F00B4E776 /* MainMenu.xib */,
+				7DF75F081918D8D200B4E776 /* BaseViewController.h */,
+				7DF75F091918D8D200B4E776 /* BaseViewController.m */,
+				7DF75F0A1918D8D200B4E776 /* BaseViewController.xib */,
 				7DF75ED11918D80F00B4E776 /* Supporting Files */,
 			);
 			path = PXErrorDemo;
@@ -100,6 +140,49 @@
 				7DF75ED91918D80F00B4E776 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF75EE71918D84D00B4E776 /* PXSourceList */ = {
+			isa = PBXGroup;
+			children = (
+				7DF75EE81918D84D00B4E776 /* Internal */,
+				7DF75EEE1918D84D00B4E776 /* PXSourceList.h */,
+				7DF75EEF1918D84D00B4E776 /* PXSourceList.m */,
+				7DF75EF01918D84D00B4E776 /* PXSourceListBadgeCell.h */,
+				7DF75EF11918D84D00B4E776 /* PXSourceListBadgeCell.m */,
+				7DF75EF21918D84D00B4E776 /* PXSourceListBadgeView.h */,
+				7DF75EF31918D84D00B4E776 /* PXSourceListBadgeView.m */,
+				7DF75EF41918D84D00B4E776 /* PXSourceListDataSource.h */,
+				7DF75EF51918D84D00B4E776 /* PXSourceListDelegate.h */,
+				7DF75EF61918D84D00B4E776 /* PXSourceListItem.h */,
+				7DF75EF71918D84D00B4E776 /* PXSourceListItem.m */,
+				7DF75EF81918D84D00B4E776 /* PXSourceListTableCellView.h */,
+				7DF75EF91918D84D00B4E776 /* PXSourceListTableCellView.m */,
+			);
+			path = PXSourceList;
+			sourceTree = "<group>";
+		};
+		7DF75EE81918D84D00B4E776 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				7DF75EE91918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.h */,
+				7DF75EEA1918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.m */,
+				7DF75EEB1918D84D00B4E776 /* PXSourceListPrivateConstants.h */,
+				7DF75EEC1918D84D00B4E776 /* PXSourceListRuntimeAdditions.h */,
+				7DF75EED1918D84D00B4E776 /* PXSourceListRuntimeAdditions.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		7DF75F071918D88500B4E776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DF75F011918D87D00B4E776 /* Photo.h */,
+				7DF75F021918D87D00B4E776 /* Photo.m */,
+				7DF75F031918D87D00B4E776 /* PhotoCollection.h */,
+				7DF75F041918D87D00B4E776 /* PhotoCollection.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +238,7 @@
 				7DF75ED51918D80F00B4E776 /* InfoPlist.strings in Resources */,
 				7DF75EDB1918D80F00B4E776 /* Credits.rtf in Resources */,
 				7DF75EE11918D80F00B4E776 /* MainMenu.xib in Resources */,
+				7DF75F0C1918D8D200B4E776 /* BaseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +251,16 @@
 			files = (
 				7DF75ED71918D80F00B4E776 /* main.m in Sources */,
 				7DF75EDE1918D80F00B4E776 /* AppDelegate.m in Sources */,
+				7DF75EFA1918D84D00B4E776 /* PXSourceListDelegateDataSourceProxy.m in Sources */,
+				7DF75EFB1918D84D00B4E776 /* PXSourceListRuntimeAdditions.m in Sources */,
+				7DF75EFC1918D84D00B4E776 /* PXSourceList.m in Sources */,
+				7DF75EFD1918D84D00B4E776 /* PXSourceListBadgeCell.m in Sources */,
+				7DF75EFE1918D84D00B4E776 /* PXSourceListBadgeView.m in Sources */,
+				7DF75EFF1918D84D00B4E776 /* PXSourceListItem.m in Sources */,
+				7DF75F001918D84D00B4E776 /* PXSourceListTableCellView.m in Sources */,
+				7DF75F051918D87D00B4E776 /* Photo.m in Sources */,
+				7DF75F061918D87D00B4E776 /* PhotoCollection.m in Sources */,
+				7DF75F0B1918D8D200B4E776 /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
